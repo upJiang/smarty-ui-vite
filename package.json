@@ -1,0 +1,19 @@
+{
+  "name": "smarty-ui-vite",
+  "version": "1.0.0",
+  "author": "jiang",
+  "license": "ISC",
+  "description": "基于vite的组件库工程化实战",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "3.0.3",
+    "vite": "3.0.7"
+  },
+  "dependencies": {
+    "vue": "3.2.37"
+  }
+}
