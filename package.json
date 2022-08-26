@@ -10,10 +10,13 @@
     "build": "vite build"
   },
   "devDependencies": {
+    "@iconify-json/ic": "1.1.4",
     "@vitejs/plugin-vue": "3.0.3",
+    "unocss": "0.45.6",
     "vite": "3.0.7"
   },
   "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
     "vue": "3.2.37"
   }
 }
