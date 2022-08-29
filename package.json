@@ -7,16 +7,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
     "@iconify-json/ic": "1.1.4",
     "@vitejs/plugin-vue": "3.0.3",
-    "unocss": "0.45.6",
-    "vite": "3.0.7"
+    "vite": "3.0.7",
+    "vitepress": "0.22.4",
+    "vitepress-theme-demoblock": "1.4.2"
   },
   "dependencies": {
-    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "plugin-vue^3.0.4": "link:@vitejs/plugin-vue^3.0.4",
+    "unocss": "0.45.6",
     "vue": "3.2.37"
   }
 }
